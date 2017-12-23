@@ -1,3 +1,3 @@
 # SocialAppWithExpress
 
-SocialApp API
+SocialApp API with NodeJs, ExpressJS and MongoDB.
