@@ -3,8 +3,12 @@
   "version": "1.0.0",
   "description": "SocialApp API",
   "main": "index.js",
+  "engines": {
+    "node": "^8.1.1",
+    "npm": "^5.0.3"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/gerardg-dev/SocialAppWithExpress/issues"
   },
-  "homepage": "https://github.com/gerardg-dev/SocialAppWithExpress#readme"
+  "homepage": "https://github.com/gerardg-dev/SocialAppWithExpress#readme",
+  "dependencies": {
+    "express": "^4.16.2"
+  }
 }
